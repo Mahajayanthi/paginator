@@ -1,0 +1,12 @@
+<p>{{title}}</p><form [formGroup]="loginForm"(ngSubmit)="loginuser()">
+    <label>UserName</label>
+
+<input type="text" name="UserName" placeholder="Enter username" formControlName="user"/>
+<br><br>
+<label>Password</label>
+
+<input type="password"  name="Password"placeholder="Enter password" formControlName="password"/>
+
+<br><br>
+<button type="submit">Login</button>
+</form>
